@@ -1,21 +1,21 @@
 <!--Template repository to create new repositories.
 Fill the content whith any you want.-->
-
+<!--
 <div align="center">
-   <h2>ProjectName</h2>
+   <h2>Office 2024 LTSC - Batch Installer</h2>
    <span>Short descritpion in a image, logo or text.</span>
 </div>
 
 <hr/>
-
+-->
 <div align="center">
    
 <!-- Badges - Replace projectName with the name of the project also, change or add the link-->
 
-![Downloads](https://img.shields.io/github/downloads/Astorcamon/Astorcamon/total)
-![License](https://img.shields.io/github/license/Astorcamon/Astorcamon)
-![Latest Release](https://img.shields.io/github/v/release/Astorcamon/Astorcamon)
-![Release Date](https://img.shields.io/github/release-date/Astorcamon/Astorcamon)
+![Downloads](https://img.shields.io/github/downloads/Astorcamon/Office2024LTSC-BatchInstaller/total)
+![License](https://img.shields.io/github/license/Astorcamon/Office2024LTSC-BatchInstaller)
+![Latest Release](https://img.shields.io/github/v/release/Astorcamon/Office2024LTSC-BatchInstaller)
+![Release Date](https://img.shields.io/github/release-date/Astorcamon/Office2024LTSC-BatchInstaller)
 <!-- Tag badges
 ![Latest Tag](https://img.shields.io/github/v/tag/Astorcamon/Astorcamon)
 -->
@@ -23,36 +23,94 @@ Fill the content whith any you want.-->
 ![Nuget Package](https://img.shields.io/nuget/v/:packageName)
 ![Nuget Package](https://img.shields.io/nuget/dt/:packageName)
 -->
-![Languages](https://img.shields.io/github/languages/count/Astorcamon/Astorcamon)
-![Top Language](https://img.shields.io/github/languages/top/Astorcamon/Astorcamon)
-![Repo Size](https://img.shields.io/github/repo-size/Astorcamon/Astorcamon)
-![Visits](https://badges.pufler.dev/visits/Astorcamon/Astorcamon)
+![Languages](https://img.shields.io/github/languages/count/Astorcamon/Office2024LTSC-BatchInstaller)
+![Top Language](https://img.shields.io/github/languages/top/Astorcamon/Office2024LTSC-BatchInstaller)
+![Repo Size](https://img.shields.io/github/repo-size/Astorcamon/Office2024LTSC-BatchInstaller)
+![Visits](https://badges.pufler.dev/visits/Astorcamon/Office2024LTSC-BatchInstaller)
 
 </div>
 
-# Project Name
-Detailed Description
+* * *
 
+# Office 2024 LTSC - Batch Installer
+A customizable batch‑based installer for Microsoft Office 2024 LTSC.
+Includes an interactive .bat script, XML deployment support, and full documentation for both automated and official Microsoft installation methods.
+
+<!--
 ## Table of Contents
 - [Getting Started](#getting-started)
-- [Documentation](#documentation)
-- [Screenshots](#screenshots)
+- [Requirements](#Requirements)
+- [Install - Option 1](#Option-1)
+- [Install - Option 2](#Option-2)
 - [Support Development](#Support-development)
 
 
 # Getting Started
-Instructions of how to use or how to install.
 
+This document provides instructions for downloading, configuring, and installing Microsoft Office 2024 LTSC using either a customizable batch installer or the official Microsoft deployment method.
+-->
+* * *
+
+## Requirements
+
+Before proceeding, download the official **Office Deployment Tool (ODT)**:
+
+**Download:** https://learn.microsoft.com/es-es/office/ltsc/2024/deploy#download-the-office-deployment-tool-from-the-microsoft-download-center
+
+Running the tool will extract the following files:
+
+* `setup.exe`
+* `configuration.xml`
+
+Both are required for installation.
+
+* * *
+
+## How to install
+
+### Option 1 (User-friendly GUI)
+
+This method allows you to interactively select which Office applications to install.
+
+1. Place **Setup Office (Run as Admin).bat** in the same directory as **Setup.exe**.
+   
+3. Run the batch file **as Administrator**.
+4. Select the applications to install by entering the corresponding number.
+  * Each application indicates its status as **=1 (Enabled)** or **=0 (Disabled).**
+4. Enter **S** to begin the installation.
+
+This option is recommended for users who want a simple, menu‑based installation process.
+
+***
+
+### Option 2 (For Advanced Users)
+
+This method uses Microsoft’s official configuration and deployment workflow.
+
+1. Generate a custom XML configuration using the online tool:
+   
+   **Configuration Tool:** https://config.office.com/deploymentsettings  
+3. Save the generated XML file in the same folder as `setup.exe`.  
+4. Open **Command Prompt as Administrator** in that folder.  
+5. Download the Office installation files:`setup.exe /download configuration.xml`  
+6. Once the download completes, install Office:`setup.exe /configure configuration.xml`  
+
+This option is recommended for IT administrators or advanced users who need full control over deployment settings.
+
+<!--
 # Documentation
 Links to documentation
 
 # Screenshots
 If have if not remove from Table of Contents
+-->
 
-# Support Development
-**If you find useful [my work](https://github.com/Astorcamon), please, consider to support development.** 😉
+* * *
 
-*You may also add me to your credits for more diffusion:* `![Astorcamon](https://github.com/Astorcamon)`
+## Support Development
+**If you find [my work](https://github.com/Astorcamon) useful, feel free to support its development** 😉
+
+*You may also credit my GitHub profile for additional visibility:* `![Astorcamon](https://github.com/Astorcamon)`
 
 **Thank you so much** 😊
 
