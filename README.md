@@ -12,10 +12,16 @@ Fill the content whith any you want.-->
    
 <!-- Badges - Replace projectName with the name of the project also, change or add the link-->
 
+![Visits](https://visitor-badge.laobi.icu/badge?page_id=Astorcamon.Office2024LTSC-BatchInstaller)
+![Downloads](https://img.shields.io/github/downloads/Astorcamon/Office2024LTSC-BatchInstaller/total)
+![Latest Release](https://img.shields.io/github/v/release/Astorcamon/Office2024LTSC-BatchInstaller)
+![Release Date](https://img.shields.io/github/release-date/Astorcamon/Office2024LTSC-BatchInstaller)
+<!--
 ![Downloads](https://img.shields.io/github/downloads/Astorcamon/Office2024LTSC-BatchInstaller/total)
 ![License](https://img.shields.io/github/license/Astorcamon/Office2024LTSC-BatchInstaller)
 ![Latest Release](https://img.shields.io/github/v/release/Astorcamon/Office2024LTSC-BatchInstaller)
 ![Release Date](https://img.shields.io/github/release-date/Astorcamon/Office2024LTSC-BatchInstaller)
+-->
 <!-- Tag badges
 ![Latest Tag](https://img.shields.io/github/v/tag/Astorcamon/Astorcamon)
 -->
@@ -23,15 +29,17 @@ Fill the content whith any you want.-->
 ![Nuget Package](https://img.shields.io/nuget/v/:packageName)
 ![Nuget Package](https://img.shields.io/nuget/dt/:packageName)
 -->
+<!--
 ![Languages](https://img.shields.io/github/languages/count/Astorcamon/Office2024LTSC-BatchInstaller)
 ![Top Language](https://img.shields.io/github/languages/top/Astorcamon/Office2024LTSC-BatchInstaller)
 ![Repo Size](https://img.shields.io/github/repo-size/Astorcamon/Office2024LTSC-BatchInstaller)
 ![Visits](https://visitor-badge.laobi.icu/badge?page_id=Astorcamon.Office2024LTSC-BatchInstaller)
-<!--![Visitors](https://komarev.com/ghpvc/?username=Astorcamon&repo=Office2024LTSC-BatchInstaller&color=blue)-->
+![Visitors](https://komarev.com/ghpvc/?username=Astorcamon&repo=Office2024LTSC-BatchInstaller&color=blue)
+-->
 
 </div>
 
-* * *
+---
 
 # Office 2024 LTSC - Batch Installer
 This is a customizable, interactive, and user‑friendly batch‑based installer for [Microsoft Office 2024 LTSC](https://learn.microsoft.com/en-en/office/ltsc/2024/overview).<br/>
@@ -50,7 +58,8 @@ The script is released under the [MIT License](./LICENSE.md), while Microsoft Of
 
 This document provides instructions for downloading, configuring, and installing Microsoft Office 2024 LTSC using either a customizable batch installer or the official Microsoft deployment method.
 -->
-* * *
+
+---
 
 ## Requirements
 
@@ -58,10 +67,10 @@ Before proceeding, download the official **[Office Deployment Tool (ODT)](https:
 
 Running the tool will extract the following files:
 
-* `setup.exe`
-* `configuration.xml`
+- `setup.exe`
+- `configuration-Office365-x64.xml`
 
-Both files are required for installation.
+The `setup.exe` file is required for installation, while the XML file is safe to delete.
 
 * * *
 
@@ -71,16 +80,16 @@ Both files are required for installation.
 
 This method allows you to interactively select which Office applications to install.
 
-1. Download **[Setup Office (Run as Admin).bat](./Setup%20Office%20(Run%20as%20Admin).bat)** and place it in the same directory as **Setup.exe**.
-   
-2. Run the batch file **as Administrator**.
-3. Select the applications to install by entering the corresponding number.
-  * Each application shows its status as **=1 (Enabled)** or **=0 (Disabled).**
+1. Download the latest release of [Setup Office 2024 LTSC (Run as Admin).bat](https://github.com/Astorcamon/Office2024LTSC-BatchInstaller/releases)
+2. Extract and place it in the same directory as `Setup.exe`.   
+3. Run the batch file **as Administrator**.
+4. Select the applications to install by entering the corresponding number.
+  - Each application shows its status as **=1 (Enabled)** or **=0 (Disabled).**
 4. Enter **S** to begin the installation.
 
 This option is recommended for users who want a simple, menu‑based installation process.
 
-***
+---
 
 ### Option 2 (For Advanced Users)
 
@@ -102,14 +111,9 @@ Links to documentation
 If have if not remove from Table of Contents
 -->
 
-* * *
+---
 
 ## Support Development
-**If you find [my work](https://github.com/Astorcamon) useful, feel free to support its development** 😉
-
-*You may also credit my GitHub profile for additional visibility:* `![Astorcamon](https://github.com/Astorcamon)`
-
-**Thank you so much** 😊
 
 <Table>
    <th>Paypal</th>
