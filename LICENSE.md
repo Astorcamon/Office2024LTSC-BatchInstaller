@@ -19,3 +19,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-----------------------------------------------------------------------
+
+Additional Notice Regarding Microsoft Office:
+
+This project includes scripts intended to automate the deployment of
+Microsoft Office LTSC 2024. Microsoft Office itself is not included in this
+repository and is not covered by the MIT License. Microsoft Office is
+licensed separately under its own perpetual Microsoft license. Users must
+ensure they comply with all applicable Microsoft licensing terms when
+installing or deploying Office.
