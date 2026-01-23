@@ -34,8 +34,8 @@ Fill the content whith any you want.-->
 * * *
 
 # Office 2024 LTSC - Batch Installer
-A customizable batch‑based installer for Microsoft Office 2024 LTSC.
-Includes an interactive .bat script, XML deployment support, and full documentation for both automated and official Microsoft installation methods.
+This is a customizable, interactive, and user‑friendly batch‑based installer for [Microsoft Office 2024 LTSC](https://learn.microsoft.com/en-en/office/ltsc/2024/overview).<br/>
+The script is released under the [MIT License](./LICENSE.md), while Microsoft Office is covered by its own [Microsoft license](https://learn.microsoft.com/en-en/office/volume-license-activation/plan-volume-activation-of-office).
 
 <!--
 ## Table of Contents
@@ -54,9 +54,7 @@ This document provides instructions for downloading, configuring, and installing
 
 ## Requirements
 
-Before proceeding, download the official **Office Deployment Tool (ODT)**:
-
-**Download:** https://learn.microsoft.com/es-es/office/ltsc/2024/deploy#download-the-office-deployment-tool-from-the-microsoft-download-center
+Before proceeding, download the official **[Office Deployment Tool (ODT)](https://learn.microsoft.com/es-es/office/ltsc/2024/deploy#download-the-office-deployment-tool-from-the-microsoft-download-center)**:
 
 Running the tool will extract the following files:
 
@@ -73,7 +71,7 @@ Both files are required for installation.
 
 This method allows you to interactively select which Office applications to install.
 
-1. Place **Setup Office (Run as Admin).bat** in the same directory as **Setup.exe**.
+1. Download **[Setup Office (Run as Admin).bat](./Setup%20Office%20(Run%20as%20Admin).bat)** and place it in the same directory as **Setup.exe**.
    
 2. Run the batch file **as Administrator**.
 3. Select the applications to install by entering the corresponding number.
@@ -88,9 +86,7 @@ This option is recommended for users who want a simple, menu‑based installatio
 
 This method uses Microsoft’s official configuration and deployment workflow.
 
-1. Generate a custom XML configuration using the online tool:
-   
-   **Configuration Tool:** https://config.office.com/deploymentsettings  
+1. Generate a custom XML configuration using the online [Configuration Tool](https://config.office.com/deploymentsettings)
 2. Save the generated XML file in the same folder as `setup.exe`.  
 3. Open **Command Prompt as Administrator** in that folder.  
 4. Download the Office installation files: `setup.exe /download configuration.xml`  
