@@ -1,0 +1,27 @@
+name: Sync labels
+on:
+  # You can run this with every type of event, but it's better to run it only when you actually need it.
+  workflow_dispatch:
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+
+    steps:
+      #- run: "echo 'Target Token: ${{ secrets.GITHUB_TOKEN }}'"
+      #- run: "echo 'Source Token: ${{ secrets.ACTIONSYNC }}'"
+      
+      - uses: EndBug/label-sync@v1
+        with:
+          # GITHUB_TOKEN or a `repo` scoped Personal Access Token (PAT), needed to edit the labels in this repo
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # The path to the JSON or YAML file containing the label config (more info in the README)
+          # config-file: # optional
+          # The repo to copy labels from (if not using a config file), in the 'owner/repo' format
+          source-repo: Astorcamon/TemplateRepo
+          # A token to use if the source repo is private (Must be at the repo that starts the action)
+          source-repo-token: ${{ secrets.ACTIONSYNC }}
+          # Whether to delete any other label (useful when setting up a new repo, dangerous when editing an existing one)
+          delete-other-labels: true # optional, default is false
+          # Whether to only display the changes, without making them (useful if you're worried you're going to mess up)
+          # dry-run: true
