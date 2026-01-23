@@ -6,52 +6,54 @@ This document provides instructions for downloading, configuring, and installing
 
 ## Requirements
 
-Before proceeding, download the official **Office Deployment Tool (ODT)**:
-
-**Download:**  
-https://learn.microsoft.com/es-es/office/ltsc/2024/deploy#download-the-office-deployment-tool-from-the-microsoft-download-center
+Before proceeding, download the official [Office Deployment Tool (ODT)](https://learn.microsoft.com/es-es/office/ltsc/2024/deploy#download-the-office-deployment-tool-from-the-microsoft-download-center)
 
 Running the tool will extract the following files:
 
 - `setup.exe`
-- `configuration.xml`
+- `configuration-Office365-x64.xml`
 
-Both are required for installation.
+The `setup.exe` file is required for installation, while the XML file is safe to delete.
 
 ---
 
-## Option 1 — Customizable Batch Installer
+## How to install
+
+### Option 1 (User-friendly GUI)
 
 This method allows you to interactively select which Office applications to install.
 
-1. Place **Setup Office 2024 LTSC (Run As Admin).bat** in the same directory as ***Setup.exe***.
+1. Place `Setup Office 2024 LTSC (Run As Admin).bat` in the same directory as `Setup.exe`.
 2. Run the batch file **as Administrator**.
 3. Select the applications to install by entering the corresponding number.  
-   - Each application indicates its status as  **=1 (Enabled)** or  **=0 (Disabled).**
+   - Each application indicates its status as **=1 (Enabled)** or  **=0 (Disabled).**
 4. Enter **S** to begin the installation.
 
 This option is recommended for users who want a simple, menu‑based installation process.
 
 ---
 
-## Option 2 — Official Microsoft Method (Advanced)
+### Option 2 (For Advanced Users)
 
 This method uses Microsoft’s official configuration and deployment workflow.
 
-1. Generate a custom XML configuration using the online tool:
-   **Configuration Tool:**  
-   https://config.office.com/deploymentsettings
-
+1. Generate a custom XML configuration using the online tool [Configuration Tool](https://config.office.com/deploymentsettings)
 2. Save the generated XML file in the same folder as `setup.exe`.
-
 3. Open **Command Prompt as Administrator** in that folder.
-
-4. Download the Office installation files:  
-   `setup.exe /download configuration.xml`
-
-5. Once the download completes, install Office:  
-   `setup.exe /configure configuration.xml`
+4. Download the Office installation files: `setup.exe /download configuration.xml`
+5. Once the download completes, install Office: `setup.exe /configure configuration.xml`
 
 This option is recommended for IT administrators or advanced users who need full control over deployment settings.
 
 ---
+
+## Support Development
+
+<Table>
+   <th>Paypal</th>
+   <th>Github</th>
+  <tr>
+    <td><a href="https://www.paypal.com/donate?hosted_button_id=P2C76DEXQEEFQ"><img src="https://img.shields.io/badge/Donate-blue?style=flat&logo=paypal" width="115"/></a></td>
+    <td><a href="https://github.com/sponsors/Astorcamon"><img src="https://img.shields.io/badge/Sponsor-404040?style=flat&logo=GitHub-Sponsors" width="125"/></a></td>    
+  </tr>
+</table>
