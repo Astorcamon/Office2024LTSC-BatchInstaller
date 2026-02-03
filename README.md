@@ -12,10 +12,11 @@ Fill the content whith any you want.-->
    
 <!-- Badges - Replace projectName with the name of the project also, change or add the link-->
 
-![Visits](https://visitor-badge.laobi.icu/badge?page_id=Astorcamon.Office2024LTSC-BatchInstaller)
-![Downloads](https://img.shields.io/github/downloads/Astorcamon/Office2024LTSC-BatchInstaller/total)
-![Latest Release](https://img.shields.io/github/v/release/Astorcamon/Office2024LTSC-BatchInstaller)
-![Release Date](https://img.shields.io/github/release-date/Astorcamon/Office2024LTSC-BatchInstaller)
+[![Visits](https://visitor-badge.laobi.icu/badge?page_id=Astorcamon.Office2024LTSC-BatchInstaller)](https://github.com/Astorcamon/Office2024LTSC-BatchInstaller)
+[![Downloads](https://img.shields.io/github/downloads/Astorcamon/Office2024LTSC-BatchInstaller/total)](https://github.com/Astorcamon/Office2024LTSC-BatchInstaller/releases)
+[![Latest Release](https://img.shields.io/github/v/release/Astorcamon/Office2024LTSC-BatchInstaller)](https://github.com/Astorcamon/Office2024LTSC-BatchInstaller/releases/latest)
+[![Release Date](https://img.shields.io/github/release-date/Astorcamon/Office2024LTSC-BatchInstaller)](https://github.com/Astorcamon/Office2024LTSC-BatchInstaller/releases)
+
 <!--
 ![Downloads](https://img.shields.io/github/downloads/Astorcamon/Office2024LTSC-BatchInstaller/total)
 ![License](https://img.shields.io/github/license/Astorcamon/Office2024LTSC-BatchInstaller)
