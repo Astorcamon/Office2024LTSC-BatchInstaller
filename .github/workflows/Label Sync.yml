@@ -20,7 +20,7 @@ jobs:
           # The repo to copy labels from (if not using a config file), in the 'owner/repo' format
           source-repo: Astorcamon/TemplateRepo
           # A token to use if the source repo is private (Must be at the repo that starts the action)
-          source-repo-token: ${{ secrets.ACTIONSYNC }}
+          source-repo-token: ${{ secrets.LABELSYNC }}
           # Whether to delete any other label (useful when setting up a new repo, dangerous when editing an existing one)
           delete-other-labels: true # optional, default is false
           # Whether to only display the changes, without making them (useful if you're worried you're going to mess up)
