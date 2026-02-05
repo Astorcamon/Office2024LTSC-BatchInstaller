@@ -81,8 +81,8 @@ The `setup.exe` file is required for installation, while the XML file is safe to
 
 This method allows you to interactively select which Office applications to install.
 
-1. Download the latest release of [Setup Office 2024 LTSC (Run as Admin).bat](https://github.com/Astorcamon/Office2024LTSC-BatchInstaller/releases)
-2. Extract and place it in the same directory as `Setup.exe`.   
+1. Download the latest release of [Setup_Office_2024_LTSC.zip](https://github.com/Astorcamon/Office2024LTSC-BatchInstaller/releases)
+2. Extract and place the files it in the same directory as `Setup.exe`.   
 3. Run the batch file **as Administrator**.
 4. Select the applications to install by entering the corresponding number.
   - Each application shows its status as **=1 (Enabled)** or **=0 (Disabled).**
@@ -108,19 +108,20 @@ This option is recommended for IT administrators or advanced users who need full
 # Documentation
 Links to documentation
 
-# Screenshots
-If have if not remove from Table of Contents
 -->
 
----
+## Screenshots
+<img src="docs/Screenshots/Menu.png" width="300">
 
 ## Support Development
 
 <Table>
    <th>Paypal</th>
    <th>Github</th>
+   <th>Ko-Fi</th>
   <tr>
     <td><a href="https://www.paypal.com/donate?hosted_button_id=P2C76DEXQEEFQ"><img src="https://img.shields.io/badge/Donate-blue?style=flat&logo=paypal" width="115"/></a></td>
-    <td><a href="https://github.com/sponsors/Astorcamon"><img src="https://img.shields.io/badge/Sponsor-404040?style=flat&logo=GitHub-Sponsors" width="125"/></a></td>    
+    <td><a href="https://github.com/sponsors/Astorcamon"><img src="https://img.shields.io/badge/Sponsor-404040?style=flat&logo=GitHub-Sponsors" width="135"/></a></td>
+    <td><a href="https://ko-fi.com/astorcamon"><img src="https://img.shields.io/badge/Donate-gray?style=flat&logo=kofi" width="128"/></a></td>
   </tr>
 </table>
