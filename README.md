@@ -86,7 +86,8 @@ This method allows you to interactively select which Office applications to inst
 3. Run the batch file **as Administrator**.
 4. Select the applications to install by entering the corresponding number.
   - Each application shows its status as **=1 (Enabled)** or **=0 (Disabled).**
-4. Enter **S** to begin the installation.
+5. Enter **I** to begin the installation.
+6. Select the language to install by entering its number
 
 This option is recommended for users who want a simple, menu‑based installation process.
 
