@@ -9,6 +9,8 @@ cd /d "%~dp0"
 :: Check setup.exe
 if not exist "%~dp0setup.exe" (
     echo ERROR: setup.exe not found in the BAT folder.
+	echo Download from https://www.microsoft.com/en-us/download/details.aspx?id=49117
+	start https://www.microsoft.com/en-us/download/details.aspx?id=49117
     pause
     exit /b
 )
