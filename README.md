@@ -64,7 +64,7 @@ This document provides instructions for downloading, configuring, and installing
 
 ## Requirements
 
-Before proceeding, download the official **[Office Deployment Tool (ODT)](https://learn.microsoft.com/es-es/office/ltsc/2024/deploy#download-the-office-deployment-tool-from-the-microsoft-download-center)**:
+Before proceeding, download the official **[Office Deployment Tool (ODT)](https://www.microsoft.com/en-us/download/details.aspx?id=49117)**:
 
 Running the tool will extract the following files:
 
@@ -105,6 +105,8 @@ This method uses Microsoft’s official configuration and deployment workflow.
 
 This option is recommended for IT administrators or advanced users who need full control over deployment settings.
 
+Learn more: https://learn.microsoft.com/en-us/office/ltsc/2024/deploy
+
 <!--
 # Documentation
 Links to documentation
@@ -112,7 +114,7 @@ Links to documentation
 -->
 
 ## Screenshots
-<img src="docs/Screenshots/Menu.png" width="300">
+<img src="docs/Screenshots/Menu.png" width="300"> <img src="docs/Screenshots/Language.png" width="300">
 
 ## Support Development
 
