@@ -114,7 +114,8 @@ Links to documentation
 -->
 
 ## Screenshots
-<img src="docs/Screenshots/Menu.png" width="300"> <img src="docs/Screenshots/Language.png" width="300">
+
+<img src="docs/Screenshots/Menu.png" width="300"> <img src="docs/Screenshots/Language.png" width="300" height="605">
 
 ## Support Development
 
